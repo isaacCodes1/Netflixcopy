@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(Netflix\ 1\ background\ image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.wrapper {
+  width: 350px;
+  background: #080808cb;
+  color: #fff;
+  border-radius: 2px;
+  padding: 30px 40px;
+  height: 450px;
+  box-shadow: 0 0 1px;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  margin: 30px 0;
+}
+.wrapper h1 {
+  font-size: 28px;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: #3c363685;
+  border: none;
+  outline: none;
+  border: 1px;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+}
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: 15px 0 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+.chder: 1px solid red;
+}
+.wrapper .remember-forgot a {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  padding-bottom: 18px;
+  color: #fff;
+}
+::placeholder {
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+button {
+  padding: 8px;
+  width: 271px;
+  background-color: red;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 1px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+button:hover {
+  color: black;
+  background-color: #fff;
+  transition: 1s ease-in-out;
+}
+.pro1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 22px;
+}
+.pro2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-bottom: 40px;
+}
+.pro3{
+  margin-left: 150px;
+  font-family: cursive;
+  font-size: 10px;
+  color: red;
+}

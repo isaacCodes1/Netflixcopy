@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background:url(Netflix\ 1\ background\ image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.wrapper{
+  width: 400px;
+  background: #080808cb;
+  color: #fff;
+  border-radius: 2px;
+  padding: 30px 40px;
+  height: 400px;
+}
+.wrapper h1
